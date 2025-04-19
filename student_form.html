@@ -1,0 +1,22 @@
+<!DOCTYPE html> <!-- Declares the document type as HTML5 -->
+<html> <!-- Starts the HTML document -->
+<head>
+  <title>Add Student</title> <!-- Sets the title of the page that appears in the browser tab -->
+  <link rel="stylesheet" href="style.css"> <!-- Links to the external stylesheet (style.css) for styling the page -->
+</head>
+<body>
+  <h2>Add Student</h2> <!-- Displays a heading "Add Student" -->
+
+  <!-- Form that will send data to add_student.php using the POST method -->
+  <form method="POST" action="add_student.php">
+    <!-- Input field for student's name with a placeholder and required validation -->
+    <input type="text" name="name" placeholder="Student Name" required>
+    
+    <!-- Input field for student's roll number with a placeholder and required validation -->
+    <input type="text" name="roll_number" placeholder="Roll Number" required>
+    
+    <!-- Submit button to submit the form -->
+    <button type="submit">Add Student</button>
+  </form>
+</body>
+</html>
