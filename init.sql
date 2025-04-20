@@ -16,35 +16,3 @@ CREATE TABLE attendance (
     status ENUM('Present', 'Absent') NOT NULL, -- Creates a 'status' column that can only have values 'Present' or 'Absent'. It cannot be NULL.
     FOREIGN KEY (student_id) REFERENCES students(student_id) ON DELETE CASCADE -- Establishes a foreign key relationship with the 'students' table. If a student is deleted, their attendance records will also be deleted.
 );
-/*
--- Create a database if it does not exist
-CREATE DATABASE IF NOT EXISTS database_name;
-
--- Select the database to use
-USE database_name;
-
--- Create a table with columns and constraints
-CREATE TABLE table_name (
-    column_name data_type [constraints],  -- Define a column with a specific data type and optional constraints
-    ...
-);
-
--- Auto-increment primary key for a column
-column_name INT AUTO_INCREMENT PRIMARY KEY;
-
--- Define a NOT NULL constraint for a column
-column_name data_type NOT NULL;
-
--- Define a UNIQUE constraint for a column
-column_name data_type UNIQUE;
-
--- Create an ENUM type column with limited values
-column_name ENUM('value1', 'value2', ...) NOT NULL;
-
--- Foreign key constraint to reference another table
-FOREIGN KEY (column_name) REFERENCES referenced_table(referenced_column) 
-    [ON DELETE CASCADE | ON UPDATE CASCADE | ...];
-
--- Create a foreign key with cascading delete (delete rows from the child table when the parent row is deleted)
-FOREIGN KEY (column_name) REFERENCES referenced_table(referenced_column) ON DELETE CASCADE;
-*/
