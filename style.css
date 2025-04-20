@@ -1,38 +1,32 @@
-/* General body styling */
 body {
-    font-family: Arial, sans-serif; /* Sets the font family to Arial with a fallback to sans-serif */
-    padding: 20px; /* Adds padding of 20px around the content */
-    background: #3e6c9b; /* Sets a light gray background color */
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background: #3e6c9b;
 }
 
-/* Heading styling */
 h2 {
-    color: #6a6b72; /* Sets the color of the h2 text to a dark gray */
+    color: #6a6b72;
 }
 
-/* Form styling */
 form {
-    margin: 20px 0; /* Adds margin of 20px on top and bottom of the form */
+    margin: 20px 0;
 }
 
-/* Styling for input, select, and button elements */
 input, select, button {
-    padding: 8px; /* Adds 8px padding inside the input, select, and button elements */
-    margin: 5px; /* Adds 5px margin between these elements */
-    border: 1px solid #842323; /* Adds a light gray border around the elements */
-    border-radius: 5px; /* Rounds the corners of the elements */
+    padding: 8px;
+    margin: 5px;
+    border: 1px solid #842323;
+    border-radius: 5px;
 }
 
-/* Table styling */
 table {
-    width: 100%; /* Sets the table to take up 100% of the available width */
-    border-collapse: collapse; /* Ensures the table borders collapse into one */
-    background: #141010; /* Sets the table background color to white */
+    width: 100%;
+    border-collapse: collapse;
+    background: #141010;
 }
 
-/* Styling for table headers and table data cells */
 th, td {
-    padding: 10px; /* Adds 10px padding inside the header and data cells */
-    text-align: left; /* Aligns text to the left in the cells */
-    border: 1px solid #580b0b; /* Adds a light gray border around each cell */
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #580b0b;
 }
